@@ -1,6 +1,6 @@
 {
   "name": "ibm_word_counter",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "main.js",
   "type": "module",
@@ -12,6 +12,7 @@
   "author": "Muhammmad Ibrahim",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^5.3.0",
     "inquirer": "^9.2.20"
   },
   "devDependencies": {

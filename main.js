@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import inquirer from "inquirer";
+import chalk from "chalk";
 let user_answer = await inquirer.prompt([
     {
         name: "words",
@@ -8,4 +9,4 @@ let user_answer = await inquirer.prompt([
     },
 ]);
 let result = user_answer.words.trim().split(" ").length;
-console.log(`You have total ${result} words.`);
+console.log(chalk.red(`You have total ${result} words.`));
